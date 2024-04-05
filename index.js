@@ -35,7 +35,7 @@ items([1,2,3,4,5,6,7,8,9,10,11,12,13]);
  //Write a function that takes in a an array of strings and use a continue statement when the item is at the second index:  let fruits= ['apple','plum','banana','strawberries','kiwi']
  function copy(){
     let fruits= ['apple','plum','banana','strawberries','kiwi'];
-    let i = 0;
+    let i = -1;
     while(i < 4){
         i++;
         if(i /2 === 1 ) continue;
